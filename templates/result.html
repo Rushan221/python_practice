@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block title %} My App{% endblock %}
+
+{% block content %}
+{% if marks>=32 %}
+    You have passed.
+    {% else %}
+    you have failed
+    {% endif %}
+{% endblock %}
